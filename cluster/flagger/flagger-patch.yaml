@@ -8,7 +8,7 @@ spec:
       containers:
         - name: flagger
           args:
-            - -mesh-provider=kubernetes
+            - -mesh-provider=nginx
             - -metrics-server=http://flagger-prometheus:9090
             - -slack-user=flagger
             - -slack-channel=alerts
