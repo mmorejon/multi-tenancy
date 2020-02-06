@@ -46,7 +46,7 @@ spec:
               port: 3030
               path: /api/flux/v6/identity.pub
             initialDelaySeconds: 5
-            timeoutSeconds: 5              
+            timeoutSeconds: 5
           volumeMounts:
             - name: kubedir
               mountPath: /root/.kubectl
